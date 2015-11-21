@@ -1,4 +1,6 @@
 = Začínáme s{nbsp}Fedorou
+seznámení s{nbsp}operačním systémem a první kroky v{nbsp}systému
+
 :doctype: book
 :listing-caption: Listing
 :pdf-page-size: A5
@@ -11,3 +13,7 @@ include::01-uvod.adoc[]
 include::02-o-cem-je-fedora.adoc[]
 
 include::03-jak-fedoru-ziskat.adoc[]
+
+<<<
+
+include::tiraz.adoc[]

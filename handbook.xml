@@ -5,6 +5,12 @@
 <info>
 <title>Začínáme s&#160;Fedorou</title>
 <date>2015-11-21</date>
+<author>
+<personname>
+<firstname>seznámení s&#160;operačním systémem a první kroky v&#160;systému</firstname>
+</personname>
+</author>
+<authorinitials>s</authorinitials>
 </info>
 <chapter xml:id="_Úvod">
 <title>Úvod</title>
@@ -95,6 +101,18 @@
 <simpara><emphasis>A&#160;je hotovo</emphasis>&#8201;&#8212;&#8201;celá instalace by neměla zabrat více než několik desítek minut. Po restartu a přihlášení provedeme ještě několik krátkých poinstalačních nastavení (a pokud jsme měnili nastavení bootování, uvedeme ho do původního stavu) a systém je připraven. Zdařilo se? Můžeme tak začít používat Fedoru v&#160;celé její kráse!</simpara>
 </listitem>
 </orderedlist>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara><emphasis>Začínáme s Fedorou</emphasis></simpara>
+<simpara><emphasis>Autor:</emphasis><?asciidoc-br?>
+Lukáš Kotek a kol.</simpara>
+<simpara><emphasis>Jazyková korektura:</emphasis><?asciidoc-br?>
+Květa Mrštíková a Jiří Kroupa</simpara>
+<simpara><emphasis>Typografická úprava:</emphasis><?asciidoc-br?>
+Petr Čech</simpara>
+<simpara><emphasis>Návrh obálky:</emphasis><?asciidoc-br?>
+Maria Leonova</simpara>
+<simpara><emphasis>Vydáno v září 2015 jako první vydání.</emphasis><?asciidoc-br?>
+<emphasis>Vydáno pod licencí CC BY-SA 3.0</emphasis></simpara>
 </section>
 </chapter>
 </book>
