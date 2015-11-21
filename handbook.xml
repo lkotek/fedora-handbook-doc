@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Začínáme s&#160;Fedorou</title>
+<date>2015-11-21</date>
+</info>
+<chapter xml:id="_Úvod">
+<title>Úvod</title>
+<simpara>Rozhodli jste se, že na svou pracovní stanici, desktop, notebook, netbook&#8230;&#8203; (říkejme tomu prostě počítač) nainstalujete jako operační systém právě Fedoru (tzv. linuxovou distribuci). Jak dál? V&#160;čem jsou její největší výhody oproti jiným operačním systémům? Jak se k&#160;Fedoře dostat a jak ji nainstalovat? Jak si Fedoru vylepšit k&#160;obrazu svému a přizpůsobit ji pro konkrétní účel? Pojďme se na to krok za krokem podívat.</simpara>
+</chapter>
+<chapter xml:id="_o_čem_je_fedora">
+<title>O čem je Fedora</title>
+<section xml:id="_pro_koho_je">
+<title>Pro koho je?</title>
+<simpara>Fedora v&#160;edici <emphasis>Workstation</emphasis> cílí na uživatele, jejichž primárním zájmem je tvůrčí práce, ať už se jedná o&#160;vývoj nebo jiné činnosti. Nabízí odladěné prostředí <emphasis>GNOME&#160;3</emphasis> a spektrum aplikací jako jsou pro vývojáře nástroje <emphasis>DevAssistant</emphasis> nebo nově <emphasis>Builder</emphasis>, různé aplikace pro virtualizaci (<emphasis>Boxes</emphasis>), správu kontejnerů (<emphasis>Docker</emphasis>) a dalších. Znamená to, že Fedora rezignuje na běžného uživatele a opouští ho? Ne, Fedoru lze stejně tak dobře použít i pro multimediální účely, mezi které můžeme počítat i střih videa (<emphasis>PiTiVi</emphasis>), nebo práci s&#160;bitmapovou (<emphasis>GIMP</emphasis>) a vektorovou (<emphasis>Inkscape</emphasis>) grafikou. V&#160;určitém smyslu je tak Fedora lepším operačním systémem i pro běžného uživatele, než byla kdy dříve.</simpara>
+</section>
+<section xml:id="_otevřenost">
+<title>Otevřenost</title>
+<simpara>Fedora je linuxový operační systém s&#160;desetiletou tradicí vyvíjený komunitou, tedy profesionálními vývojáři a dobrovolníky bez rozdílu. Vždy obsahovala a bude obsahovat jen svobodný, čili takový software, který je open source a může být volně šířen, upravován a používán za libovolným účelem. Fedora neobsahuje software, na který byste si nemohli &#8220;sáhnout&#8221; na úrovni zdrojového kódu. Zároveň ale nijak neomezuje software, který si do systému nainstalujete. Ať již jako jednotlivý balík nebo formou repozitáře (zdroje software, viz kapitola <emphasis>Instalace nového software</emphasis>). Chcete <emphasis>Google Chrome</emphasis>? Budete ho mít. Ale i bez toho naleznete v&#160;repozitářích Fedory takřka dvacet tisíc balíků obsahujících nejrůznější aplikace a knihovny. Není to ale jen o&#160;licenční čistotě. Fedora důsledně ctí patentové právo v&#160;oblasti software (jakkoliv je v&#160;rámci EU méně relevantní). Při nasazení Fedory v&#160;komerčním i jiném prostředí máte jistotu, že jednáte v&#160;souladu se zákonem.</simpara>
+</section>
+<section xml:id="_bezpečnost_a_soukromí">
+<title>Bezpečnost a soukromí</title>
+<simpara>Vývoj Fedory má svá jasná pravidla a bezpečnost je priorita. Ve Fedoře probíhá testování jako u&#160;kteréhokoli jiného významného softwarového produktu. Navíc se Fedora každých několik let stává základem, na kterém staví firma Red Hat svůj linuxový operační systém s&#160;komerční podporou&#8201;&#8212;&#8201;Red&#160;Hat Enterprise Linux&#160;(RHEL). Stejná firma také platí mnoho vývojářů zapojených do projektu Fedory a vlastní ochranné známky s&#160;Fedorou související. Podpora Fedory, která se počítá od data vydání aktuální verze systému po vydání verze další plus jeden měsíc (což při dodržení šestiměsíčního cyklu činní třináct měsíců), pak důsledně zahrnuje bezpečnostní záplaty. A&#160;nejen to. Po celou dobu podpory jsou do Fedory začleňovány nové verze jádra. Uplatníme-li hrubou zkratku, že nová verze jádra se rovná novému podporovanému hardware, máme tu další plus bod. Fedora zároveň neobsahuje žádné programy, které by bez vašeho vědomí odesílaly jakékoliv informace. Nikdy. Fedora vás nešmíruje, naopak maximálně ctí vaše soukromí.</simpara>
+</section>
+<section xml:id="_v_čele_pelotonu">
+<title>V&#160;čele pelotonu</title>
+<simpara>Do Fedory se dostává velké množství nového softwaru, často je tak Fedora první (nebo jeden z&#160;prvních) operační systém, který daný software nasadí. Fedora je běžně místem, jakýmsi podhoubím, kde k&#160;vývoji takových programů dochází. Otevřený software je o&#160;spolupráci, lidé zapojení do Fedory se často intenzivně věnují i práci mimo samotný projekt. Nečekají, až někdo něco vyvine a oni to pak budou moci zahrnout do Fedory, ale aktivně se podílí na vývoji přímo u&#160;zdroje, přímo u&#160;konkrétního projektu, ať už spolu s&#160;dalšími vývojáři primárně pracujícími na jiných linuxových operačních systémech nebo s&#160;dalšími zcela nezávislými vývojáři. Časem se takové programy běžně stávají standardy ve většině linuxového světa. Uživatel Fedory tak jde s&#160;dobou nebo má i předstih. A&#160;taková Fedora je. Progresivní. Inovativní. V&#160;čele.</simpara>
+</section>
+</chapter>
+<chapter xml:id="_jak_fedoru_získat">
+<title>Jak Fedoru získat?</title>
+<section xml:id="_vyzkoušet_a_nainstalovat">
+<title>Vyzkoušet a nainstalovat</title>
+<simpara>Fedoru je možné nainstalovat jak z&#160;běžného optického média (CD, DVD), tak pomocí flashdisku nebo přes síť. Obrazy Fedory <emphasis>Workstation</emphasis> ke stažení ve formátu ISO jsou k&#160;nalezení na serveru <link xlink:href="http://mojefedora.cz/jak-stahnout">mojefedora.cz/jak-stahnout</link>. Fedora <emphasis>Workstation</emphasis> existuje primárně ve variantě označované jako 64bitová, která je současně nabízena jako výchozí (jednoduše ta, která je v&#160;naprosté většině případů pro uživatele tou pravou). Jedná se o&#160;tzv. \sloppy{spustitelný live obraz, takže můžete nabootovat do funkčního systému a zjistit, o&#160;čem stažená verze Fedory je, zda plně podporuje hardware vašeho počítače a podobně.} Zásadní je, že dosud neprobíhají žádné nevratné změny. Co máte aktuálně nainstalované na svém počítači, není jakkoliv ovlivněno. Praktické. Mimochodem zmiňme, že pro rozumný (ne minimální možný) chod Fedory <emphasis>Workstation</emphasis> je vhodný procesor o&#160;taktu alespoň 1&#160;GHz, operační paměť o&#160;velikosti 2&#160;GiB a volné místo na disku 10&#160;GiB spolu s&#160;grafickou kartou umožňující hardwarovou akceleraci.</simpara>
+</section>
+<section xml:id="_vytvoření_instalačního_média">
+<title>Vytvoření instalačního média</title>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Fedora LiveUSB creator</emphasis>&#8201;&#8212;&#8201;nemáte-li notebook s&#160;optickou mechanikou, je nezbytné stažený obraz zapsat např. pomocí utility <emphasis>Fedora LiveUSB creator</emphasis> (existuje ve variantách jak pro <emphasis>MS Windows</emphasis>, tak pro Linux) na flashdisk. Pozor, tato operace smaže všechna data obsažená na daném flashdisku! Pomocí <emphasis>Fedora LiveUSB</emphasis> creatoru dokonce můžeme nejprve stáhnout i samotný instalační obraz. Software je dostupný opět z&#160;adresy: <link xlink:href="http://mojefedora.cz/jak-stahnout">mojefedora.cz/jak-stahnout</link>.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Jak na ISO obraz</emphasis>&#8201;&#8212;&#8201;naopak zcela klasickou cestou, jak vytvořit instalační médium, je vypálení ISO obrazu na DVD. Většina soudobých operačních systémů umožňuje tuto operaci už v&#160;rámci systému jako takového, popř. je možné nainstalovat specializovanou, volně stažitelnou aplikaci (v&#160;Linuxu např. <emphasis>Brasero</emphasis> a analogicky na <emphasis>MS Windows</emphasis> lze doporučit např. <emphasis>ImgBurn</emphasis>).</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>GNOME a Disky</emphasis>&#8201;&#8212;&#8201;máme-li k&#160;dispozici linuxový operační systém (nutno dodat s&#160;nainstalovaným prostředím GNOME), jsou tu další varianty. Při běžném procházení adresářů (aplikace <emphasis>Soubory</emphasis>) můžeme po kliknutí pravým tlačítkem na ISO obraz vybrat položku &#8220;Otevřít jinou aplikací&#8221; a posléze &#8220;Zápis obrazu disku&#8221;. Dojde tím ke spuštění utility Disky, pomocí které provedeme samotný zápis na flashdisk.</simpara>
+</listitem>
+</orderedlist>
+<figure>
+<title>Nabootované instalační médium Fedory</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/instalator-a.png" contentwidth="500"/>
+</imageobject>
+<textobject><phrase>instalator a</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>Pro poslední dva body platí zásadní věc. Musíme si pečlivě ověřit, na který disk provádíme zápis instalačního ISO obrazu. Provádíme-li to na <emphasis>MS&#160;Windows</emphasis>, musíme ctít název diskového oddílu přiřazeného flashdisku, kam chceme zápis provést (nejčastěji <literal>D:</literal> či <literal>E:</literal>). Pod Linuxem pak musíme ověřit totéž (flashdisk bude typicky <literal>/dev/sdX</literal>, kde <literal>X</literal> bude specifické písmeno). Asi nejlepší a nejbezpečnější cesta, jak toto zjistit, je použít aplikaci <emphasis>Disky</emphasis>, která zobrazuje mnoho detailních informací a daném zařízení.</simpara>
+</section>
+<section xml:id="_instalace_fedory">
+<title>Instalace Fedory</title>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Bootování</emphasis>&#8201;&#8212;&#8201;ať už jsme si vytvořili jakékoliv bootovatelné médium, musíme se ujistit, že máme v&#160;BIOSu na počítači, kde instalaci provádíme, nastavenou korektní bootovací sekvenci. Na prvním místě musí být zařízení, kde je zapsaný instalační obraz systému. Do BIOSu se dostaneme při spuštění počítače stiskem klávesy, která závisí na výrobci zařízení (typicky&#160;<keycap>Delete</keycap>, <keycap>F1</keycap>, či&#160;<keycap>F2</keycap>). Často je také možné zvolit bootovací zařízení zcela bez vstupu do&#160;BIOSu stiskem klávesy <keycap>F12</keycap>.</simpara>
+</listitem>
+</orderedlist>
+<figure>
+<title>Instalátor Fedory</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/instalator-b.png" contentwidth="500"/>
+</imageobject>
+<textobject><phrase>instalator b</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Úvodní obrazovka</emphasis>&#8201;&#8212;&#8201;po úspěšném nabootování uvidíme úvodní obrazovku, kde můžeme volit primárně mezi samotnou instalací Fedory (a bootování do živého obrazu), nebo ověřením instalačního média. Zvolíme-li instalaci, budeme zanedlouho postaveni před volbu, jestli si chceme systém vyzkoušet, nebo nainstalovat na pevný disk. První volba není fatální, Fedoru můžeme zkoušet libovolně dlouho a k&#160;instalaci se kdykoliv vrátit přes ikonu v&#160;menu.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>GNOME Shell</emphasis>&#8201;&#8212;&#8201;pokud jsme zvolili možnost vyzkoušet, uvidíme před sebou tzv. prostředí <emphasis>GNOME&#160;Shell</emphasis>, které je typické nahoře umístěným výrazným panelem se základními ovládacími prvky. Vlevo nahoře je klíčové tlačítko činnosti, přes které se lze dostat k&#160;nainstalovaným aplikacím (a zmíněné možnosti instalovat systém), vpravo naopak menu relevantní zejména pro nastavení sítě a možnosti restartu či vypnutí systému.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Instalátor</emphasis>&#8201;&#8212;&#8201;když zvolíme možnost instalovat na pevný disk, jsme postupně provázeni pomocí přehledného průvodce. Volíme krok za krokem jazyková nastavení, časové pásmo, až se dostaneme k&#160;bodu rozdělení disku. Čili k&#160;zásadnímu bodu řešícímu, kam se Fedora fyzicky nainstaluje. Fedora nabízí automatické rozložení, při kterém oddíly vytvoří sama, a samozřejmě i rozdělení ruční. Je také možné nastavit, které oddíly budou šifrované.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Pevný disk</emphasis>&#8201;&#8212;&#8201;Fedora v&#160;této fázi umožňuje i vytvoření tzv. dualbootu, čili provozování dvou operačních systémů v&#160;rámci jednoho počítače. Není problém ji tak doinstalovat vedle už existující instalace <emphasis>MS&#160;Windows</emphasis>. V&#160;rámci dialogu je vlevo po celou dobu k&#160;dispozici přehled existujících oddílů. Než změny potvrdíte, pečlivě si zkontrolujte, že jsou tam všechny (např. oddíly jiných operačních systému), které tam mají být. Po odsouhlasení tohoto kroku proběhnou nevratné změny a zápis nového rozložení na disk.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Závěr</emphasis>&#8201;&#8212;&#8201;zatímco se systém instaluje, vyplníme několik zásadních údajů, jako je heslo roota (administrátora) a vytvoříme uživatelský účet, pod kterým budeme běžně pracovat (a opět mu nastavíme heslo). Pozor, Fedora uplatňuje, na rozdíl od mnoha dalších linuxových distribucí, klasický přístup k&#160;uživatelským účtům, při kterém účet uživatele root není zakázaný. Potřebujeme tedy nastavit a znát minimálně dvě hesla. Nevyhovuje vám toto nastavení? Nevadí, i u&#160;našeho běžného účtu můžeme zaškrtnout volbu \uv{Správce}, která nám umožní velkou část správcovské činnosti stvrdit i pod naším běžným účtem a tedy i jeho heslem.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>A&#160;je hotovo</emphasis>&#8201;&#8212;&#8201;celá instalace by neměla zabrat více než několik desítek minut. Po restartu a přihlášení provedeme ještě několik krátkých poinstalačních nastavení (a pokud jsme měnili nastavení bootování, uvedeme ho do původního stavu) a systém je připraven. Zdařilo se? Můžeme tak začít používat Fedoru v&#160;celé její kráse!</simpara>
+</listitem>
+</orderedlist>
+</section>
+</chapter>
+</book>

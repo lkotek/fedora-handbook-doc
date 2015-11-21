@@ -1,0 +1,13 @@
+= Začínáme s{nbsp}Fedorou
+:doctype: book
+:listing-caption: Listing
+:pdf-page-size: A5
+:icons: font
+:experimental:
+//:sectnums:
+
+include::01-uvod.adoc[]
+
+include::02-o-cem-je-fedora.adoc[]
+
+include::03-jak-fedoru-ziskat.adoc[]

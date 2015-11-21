@@ -1,0 +1,3 @@
+== Úvod
+
+Rozhodli jste se, že na svou pracovní stanici, desktop, notebook, netbook... (říkejme tomu prostě počítač) nainstalujete jako operační systém právě Fedoru (tzv. linuxovou distribuci). Jak dál? V{nbsp}čem jsou její největší výhody oproti jiným operačním systémům? Jak se k{nbsp}Fedoře dostat a jak ji nainstalovat? Jak si Fedoru vylepšit k{nbsp}obrazu svému a přizpůsobit ji pro konkrétní účel? Pojďme se na to krok za krokem podívat.
