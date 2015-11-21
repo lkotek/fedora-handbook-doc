@@ -6,13 +6,18 @@ seznámení s{nbsp}operačním systémem a první kroky v{nbsp}systému
 :pdf-page-size: A5
 :icons: font
 :experimental:
-//:sectnums:
 
 include::01-uvod.adoc[]
 
 include::02-o-cem-je-fedora.adoc[]
 
 include::03-jak-fedoru-ziskat.adoc[]
+
+include::04-prvni-kroky-v-systemu.adoc[]
+
+include::05-jak-fedoru-prizpusobit.adoc[]
+
+include::06-chcete-vedet-vic.adoc[]
 
 <<<
 

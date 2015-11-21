@@ -1,0 +1,84 @@
+== První kroky v{nbsp}systému
+=== Rozkoukáváme se
+
+Máme před sebou prostředí GNOME Shell. Klíčovým místem pro nás je už zmíněný levý horní roh (tlačítko _Činnosti_), přes který se dostaneme k{nbsp}vlevo umístěnému menu s{nbsp}oblíbenými aplikacemi. Stačí do něj najet myší (nebo stisknout levou klávesu kbd:[Super], kbd:[Start], kbd:[Meta], nebo jak ji sami znáte). Jak se dostat ke všem aplikacím? V{nbsp}menu nalezneme zcela dole ikonu se sadou čtverců _Zobrazit aplikace_. Klikneme na ni a nyní máme aplikace přehledně vyskládané před sebou. Prostředí je velmi intuitivní. Znáte název aplikace? Nebo jen pár prvních písmen? Pak stačí začít psát (nebo použít vyhledávací pole zcela nahoře). Vyhledávání ale neprobíhá pouze mezi aplikacemi, hledá se i mezi kontakty, soubory, možnostmi nastavení a dalšími prvky.
+
+.Úvodní pohled na GNOME Shell
+image::img/shell-a.png[width=500]
+
+=== Pojďme o{nbsp}něco hlouběji
+
+Na co se dále zaměřit při běžné práci v _GNOME_? Předně si všimněte, že okna mají pouze tlačítko pro zavření. Proč je tomu tak, si vysvětlíme při popisu dalšího režimu, minimalizace v{nbsp}prostředí _GNOME_ totiž postrádá smysl a maximalizovat okno lze tažením k{nbsp}horní hraně obrazovky nebo poklikáním na lištu okna. Úkolem prostředí v{nbsp}tomto režimu je co nejméně překážet, proto je zobrazen pouze horní panel. Na následujícím obrázku si vysvětlíme hlavní prvky tohoto režimu.
+
+1. _Činnosti_ -- jde o{nbsp}už výše zmíněný prvek, který slouží pro přepnutí do režimu _Činnosti_, jenž je detailněji popsán níže. Je to výchozí bod, přes který se dostaneme k{nbsp}většině úkonů, které chceme v{nbsp}systému provádět.
+
+2. _Nabídka aplikace_ -- pod ikonou momentálně aktivní aplikace naleznete nabídku, která se týká aplikace jako celku (nastavení aplikace, o{nbsp}aplikaci apod.). Nabídky, které se týkají jednotlivých oken, se nalézají přímo v{nbsp}okně aplikace. Ne každá aplikace tuto nabídku má. Pokud ji nemá, naleznete pod tímto tlačítkem pouze volbu _Ukončit_.
+
+.Nabídka aplikace
+image::img/menu-aplikace.png[width=300]
+
+3. _Hodiny a kalendář_ -- pod zobrazením aktuálního dne a času naleznete kalendář a zmeškaná upozornění. Pokud využíváte jednu z{nbsp}aplikací, které využívají kalendářový backend _GNOME_ (např. _Evolution_), zobrazí se zde i události, které jste v{nbsp}těchto aplikacích do kalendáře dříve uložili.
+
+.Hodiny a kalendář
+image::img/kalendar.png[width=500]
+
+.Nabídka uživatele
+image::img/menu.png[width=350]
+
+4. _Nabídka uživatele_ -- v{nbsp}pravém horním rohu jsou k{nbsp}dispozici nejdůležitější indikátory (připojení, zvuk, baterie atd.). Po kliknutí na ně se zobrazí nabídka, v{nbsp}níž můžete nastavit hlasitost, úroveň jasu, připojení k{nbsp}internetu, bluetooth a další věci. Třetí část nabídky obsahuje vaše jméno s{nbsp}možnostmi odhlášení se nebo přepnutí do jiného uživatelského účtu. Zcela dole naleznete tři ikony. Ikona nalevo spouští nastavení systému, ta prostřední zamyká obrazovku a ikona napravo vám nabídne restartování nebo vypnutí systému.
+
+=== K{nbsp}čemu slouží Činnosti?
+
+Tento režim je určen pro spouštění aplikací, přepínání mezi nimi, přepínání mezi virtuálními plochami, organizaci desktopu a vyhledávání. Uprostřed obrazovky naleznete náhledy otevřených oken, které slouží k{nbsp}přepínání mezi aplikacemi. Vzhledem k{nbsp}tomu, že v _Činnostech_ se poskládají do dlaždice všechna otevřená okna, nemá minimalizace oken smysl a, jak již bylo zmíněno, _GNOME_ ji nezná. Na následujícím obrázku můžete vidět další důležité prvky tohoto režimu.
+
+.Obrazovka Činností
+image::img/shell-b.png[width=500]
+
+1. _Dash_ -- jedná se o{nbsp}panel (_menu_), na kterém naleznete spuštěné a oblíbené aplikace. Odlišíte je tak, že ty spuštěné jsou výrazně podtržené. Pokud chcete aplikaci zařadit mezi oblíbené, klikněte na ni v{nbsp}Dashi pravým tlačítkem myši a vyberte _Přidat mezi oblíbené_.
+
+.Práce s aplikacemi v Dashi
+image::img/dash-b.png[width=300]
+
+.Zobrazení všech aplikací
+image::img/dash-a.png[width=300]
+
+2. _Zobrazit aplikace_ -- opět již zmíněný prvek. Toto tlačítko zobrazí spouštěče aplikací. V{nbsp}dolní části obrazovky pak můžete přepínat mezi často používanými aplikacemi a všemi aplikacemi.
+
+3. _Vyhledávání_ -- prostředí _GNOME_ nabízí také velmi mocné desktopové vyhledávání. Nemusíte do vyhledávacího pole klikat, po přepnutí do režimu _Činnosti_ můžete začít rovnou psát a vyhledávání se aktivuje. Jedná se o{nbsp}nejrychlejší způsob, jak spouštět aplikace. Kromě nich ale můžete vyhledávat také dokumenty, obrázky, virtuální stroje, aplikace k{nbsp}instalaci, kontakty, atd. Nebo také provádět jednoduché výpočty. Co se má v _Činnostech_ vyhledávat, můžete nastavit v{nbsp}systémových nastaveních pod položkou _Hledání_.
+
+.Integrované vyhledávání
+image::img/vyhledavani.png[width=400]
+
+4. _Virtuální plochy_ -- na levé straně můžeme najít náhledy virtuálních ploch, kterých lze mít více, aniž by bylo nutné mít více monitorů. Slouží k{nbsp}organizaci oken a aplikací. _GNOME_ nemá fixní počet ploch. Naopak, jejich počet je dynamický. Je jich vždycky tolik, na kolika z{nbsp}nich máte aktuálně umístěná okna, a jednu prázdnou navíc, která je připravená k{nbsp}použití. Když na ni přetáhnete okno, vytvoří se další prázdná a naopak. Přetahovat okna mezi plochami můžete přímo v{nbsp}náhledech, případně můžete přetáhnout náhled ze středu obrazovky do jednoho z{nbsp}náhledů. Přepínat mezi virtuálními plochami můžete také přímo v{nbsp}pracovním režimu pomocí klávesové zkratky kbd:[Ctrl]+kbd:[Alt]+kbd:[šipka ↑]/kbd:[šipka ↓].
+
+5. _Náhledy otevřených oken_ -- slouží k{nbsp}přehledu o{nbsp}tom, jaká okna máte otevřená, a také k{nbsp}přepínání mezi nimi. Přepnutí do vybraného okna provedete najetím myši na okno a kliknutím. Mezi okny můžete přepínat také klávesami. Stačí po přepnutí do _Činností_ stisknout klávesu kbd:[šipka ↓] a potom pomocí šipek navigovat mezi okny. Přepnutí do vybraného okna provedete klávesou kbd:[Enter].
+
+=== Základní nastavení
+
+_Uživatelská a systémová nastavení_ Fedory nalezneme tak, že stejně jako u{nbsp}dříve popsaného způsobu napíšeme slovo _nastavení_, nebo přes samopopisnou ikonu v{nbsp}menu na liště zcela vpravo nahoře. Nastavení jsou členěna do přehledných kategorií _Osobní_, _Hardware_ a _Systém_), kde je možné konfigurovat vše od uživatelských účtů, přes pozadí plochy, až po tiskárny. Naprostá většina běžné konfigurace bude probíhat právě zde. Aplikace umožňuje i propojení s{nbsp}množstvím online účtů, tedy s{nbsp}cloudovými službami, ať už používáte ownCloud, Google, Facebook a další. Takto přidaný účet umožní přístup k{nbsp}službám a datům daného poskytovatele a ostatním aplikacím. Používáte online chat? Potřebujete kontakty? Nic už není nutné zadávat znovu.
+
+.Uživatelská a systémová nastavení
+image::img/nastaveni.png[width=500]
+
+.Správa software ve Fedoře
+image::img/software.png[width=500]
+
+=== Instalace nového softwaru
+
+Fedora už v{nbsp}základu obsahuje mnoho potřebných aplikací (webový prohlížeč _Mozilla{nbsp}Firefox_, kancelářský balík _LibreOffice_, multimediální přehrávač _Totem_ a desítky dalších). Co když ale potřebujeme více programů? Ne všechen software může být zahrnut do výchozí instalace systému, je ale dostupný v{nbsp}tzv. repozitářích, z{nbsp}nichž lze daný program jednoduše stáhnout. Repozitář je tvořen sadou serverů a jejich zrcadel, kde jsou umístěny balíky s{nbsp}různými aplikacemi a knihovnami. Slyšeli jste o{nbsp}\uv{appstore} na různých mobilních platformách? Pak jste velice blízko, základní princip je stejný. Chcete nějaký program stáhnout z{nbsp}webu a nainstalovat? Zkuste se nejprve podívat, zda není k{nbsp}dispozici v{nbsp}repozitářích. Na Linuxu se tak instaluje naprostá většina aplikací. Jak tedy na to?
+
+1. _Grafický správce_ -- aplikace _Software_ je přesně ten druh programu, který znáte z{nbsp}libovolné mobilní platformy. Je to elegantní a přehledná vstupní brána do repozitářů, kde lze dle názvu (nebo v{nbsp}rámci kategorie) vyhledávat celistvé aplikace a různé doplňky pro systém. Každá aplikace zde má svůj přehledný popis včetně licence a své velikosti. Stále platí: vše je opensource, vše je bezplatné. Přes nástroj _Software_ můžeme aplikace samozřejmě i odinstalovat a setkáme se s{nbsp}ním vždy, když budeme systém (a balíky v{nbsp}něm) aktualizovat.
+
+2. _Nástroj DNF_ -- skrze nástroj _Software_ lze v{nbsp}repozitářích dohledat hlavně ucelené spustitelné aplikace. Není ale určen na dohledání jednotlivé (třeba vývojářské) knihovny, dokumentace nebo různých dílčích utilit. Ve Fedoře je přitom takřka dvacet tisíc balíků, zdaleka ne všechny však obsahují pouze aplikace. Pro přístup ke všem balíkům (a jejich vyhledávání, instalaci, apod.) můžeme použít nástroj _dnf_ (určený pro práci v{nbsp}shellu, není však těžké se jej naučit užívat) nebo jeho nadstavbu _Yum extender (DNF)_, která je opět grafická a dává nám veškerý uživatelský komfort.
+\end{enumerate}
+
+=== Kodeky a další software
+
+Co když nějaký software k{nbsp}dispozici v{nbsp}repozitářích není? I{nbsp}taková situace může nastat. Často se jedná o{nbsp}specifický kodek nebo ovladač. Takový software nemusí být nezbytně placený, může být volně dostupný, ale už ho není (z{nbsp}licenčních, nebo patentových důvodů) možné zahrnout do Fedory. Tady nastupují repozitáře třetích stran, které nejsou spravované ani jinak spojené s{nbsp}Fedorou, ale mohou být velmi užitečné. (Dodejme, že za tyto zdroje softwaru nenese Fedora Project zodpovědnost a že nemusí mít vyřešenou právní nezávadnost podle autorského a patentového práva.)
+
+1. _Firemní repozitáře_ -- korporace jako Google nebo Adobe nabízejí zdroje software obsahující jejich produkty. Jsou to různé vývojářské utility, ale i programy jako _Google Chrome_, _Adobe Flash plugin_ a další. Jak jednou z{nbsp}jejich webu nainstalujeme balík přidávající do našeho systému repozitář, vidíme dostupný software v{nbsp}nástrojích stejně tak jako dříve zmíněný _Software_ nebo _dnf_. Obdobným způsobem ho pak také spravujeme.
+
+2. _Další repozitáře_ -- existují velké zdroje software třetích stran s{nbsp}množstvím balíků, ke kterým např. nemáme k{nbsp}dispozici zdrojové kódy nebo jsou jinak nevyhovující, ale které jsou stále užitečné. Multimediální kodeky a různé specifické ovladače pak můžeme nalézt v{nbsp}repozitářích jako je (asi nejznámější) _RPMFusion_. Instalace balíků pak opět probíhá analogicky.
+
+3. _Copr repozitáře_ -- na rozdíl od předchozích dvou zmíněných variant jsou repozitáře Copr za všech okolností licenčně čisté. Je snadné je přidat a jsou, vedle oficiálních repozitářů, momentálně největší zdroj softwaru pro Fedoru. Může se jednat o{nbsp}nové verze desktopových prostředí, frameworků apod. Samozřejmě při práci s{nbsp}nimi je vždy nutné zjistit, co přesně daný software v{nbsp}systému způsobí. Naleznete je na adrese link:http://copr.fedoraproject.org[copr.fedoraproject.org].
+

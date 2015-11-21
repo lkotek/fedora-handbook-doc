@@ -101,6 +101,229 @@
 <simpara><emphasis>A&#160;je hotovo</emphasis>&#8201;&#8212;&#8201;celá instalace by neměla zabrat více než několik desítek minut. Po restartu a přihlášení provedeme ještě několik krátkých poinstalačních nastavení (a pokud jsme měnili nastavení bootování, uvedeme ho do původního stavu) a systém je připraven. Zdařilo se? Můžeme tak začít používat Fedoru v&#160;celé její kráse!</simpara>
 </listitem>
 </orderedlist>
+</section>
+</chapter>
+<chapter xml:id="_první_kroky_v_systému">
+<title>První kroky v&#160;systému</title>
+<section xml:id="_rozkoukáváme_se">
+<title>Rozkoukáváme se</title>
+<simpara>Máme před sebou prostředí GNOME Shell. Klíčovým místem pro nás je už zmíněný levý horní roh (tlačítko <emphasis>Činnosti</emphasis>), přes který se dostaneme k&#160;vlevo umístěnému menu s&#160;oblíbenými aplikacemi. Stačí do něj najet myší (nebo stisknout levou klávesu <keycap>Super</keycap>, <keycap>Start</keycap>, <keycap>Meta</keycap>, nebo jak ji sami znáte). Jak se dostat ke všem aplikacím? V&#160;menu nalezneme zcela dole ikonu se sadou čtverců <emphasis>Zobrazit aplikace</emphasis>. Klikneme na ni a nyní máme aplikace přehledně vyskládané před sebou. Prostředí je velmi intuitivní. Znáte název aplikace? Nebo jen pár prvních písmen? Pak stačí začít psát (nebo použít vyhledávací pole zcela nahoře). Vyhledávání ale neprobíhá pouze mezi aplikacemi, hledá se i mezi kontakty, soubory, možnostmi nastavení a dalšími prvky.</simpara>
+<figure>
+<title>Úvodní pohled na GNOME Shell</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/shell-a.png" contentwidth="500"/>
+</imageobject>
+<textobject><phrase>shell a</phrase></textobject>
+</mediaobject>
+</figure>
+</section>
+<section xml:id="_pojďme_o_něco_hlouběji">
+<title>Pojďme o&#160;něco hlouběji</title>
+<simpara>Na co se dále zaměřit při běžné práci v <emphasis>GNOME</emphasis>? Předně si všimněte, že okna mají pouze tlačítko pro zavření. Proč je tomu tak, si vysvětlíme při popisu dalšího režimu, minimalizace v&#160;prostředí <emphasis>GNOME</emphasis> totiž postrádá smysl a maximalizovat okno lze tažením k&#160;horní hraně obrazovky nebo poklikáním na lištu okna. Úkolem prostředí v&#160;tomto režimu je co nejméně překážet, proto je zobrazen pouze horní panel. Na následujícím obrázku si vysvětlíme hlavní prvky tohoto režimu.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Činnosti</emphasis>&#8201;&#8212;&#8201;jde o&#160;už výše zmíněný prvek, který slouží pro přepnutí do režimu <emphasis>Činnosti</emphasis>, jenž je detailněji popsán níže. Je to výchozí bod, přes který se dostaneme k&#160;většině úkonů, které chceme v&#160;systému provádět.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Nabídka aplikace</emphasis>&#8201;&#8212;&#8201;pod ikonou momentálně aktivní aplikace naleznete nabídku, která se týká aplikace jako celku (nastavení aplikace, o&#160;aplikaci apod.). Nabídky, které se týkají jednotlivých oken, se nalézají přímo v&#160;okně aplikace. Ne každá aplikace tuto nabídku má. Pokud ji nemá, naleznete pod tímto tlačítkem pouze volbu <emphasis>Ukončit</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+<figure>
+<title>Nabídka aplikace</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/menu-aplikace.png" contentwidth="300"/>
+</imageobject>
+<textobject><phrase>menu aplikace</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Hodiny a kalendář</emphasis>&#8201;&#8212;&#8201;pod zobrazením aktuálního dne a času naleznete kalendář a zmeškaná upozornění. Pokud využíváte jednu z&#160;aplikací, které využívají kalendářový backend <emphasis>GNOME</emphasis> (např. <emphasis>Evolution</emphasis>), zobrazí se zde i události, které jste v&#160;těchto aplikacích do kalendáře dříve uložili.</simpara>
+</listitem>
+</orderedlist>
+<figure>
+<title>Hodiny a kalendář</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/kalendar.png" contentwidth="500"/>
+</imageobject>
+<textobject><phrase>kalendar</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Nabídka uživatele</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/menu.png" contentwidth="350"/>
+</imageobject>
+<textobject><phrase>menu</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Nabídka uživatele</emphasis>&#8201;&#8212;&#8201;v&#160;pravém horním rohu jsou k&#160;dispozici nejdůležitější indikátory (připojení, zvuk, baterie atd.). Po kliknutí na ně se zobrazí nabídka, v&#160;níž můžete nastavit hlasitost, úroveň jasu, připojení k&#160;internetu, bluetooth a další věci. Třetí část nabídky obsahuje vaše jméno s&#160;možnostmi odhlášení se nebo přepnutí do jiného uživatelského účtu. Zcela dole naleznete tři ikony. Ikona nalevo spouští nastavení systému, ta prostřední zamyká obrazovku a ikona napravo vám nabídne restartování nebo vypnutí systému.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_k_čemu_slouží_Činnosti">
+<title>K&#160;čemu slouží Činnosti?</title>
+<simpara>Tento režim je určen pro spouštění aplikací, přepínání mezi nimi, přepínání mezi virtuálními plochami, organizaci desktopu a vyhledávání. Uprostřed obrazovky naleznete náhledy otevřených oken, které slouží k&#160;přepínání mezi aplikacemi. Vzhledem k&#160;tomu, že v <emphasis>Činnostech</emphasis> se poskládají do dlaždice všechna otevřená okna, nemá minimalizace oken smysl a, jak již bylo zmíněno, <emphasis>GNOME</emphasis> ji nezná. Na následujícím obrázku můžete vidět další důležité prvky tohoto režimu.</simpara>
+<figure>
+<title>Obrazovka Činností</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/shell-b.png" contentwidth="500"/>
+</imageobject>
+<textobject><phrase>shell b</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Dash</emphasis>&#8201;&#8212;&#8201;jedná se o&#160;panel (<emphasis>menu</emphasis>), na kterém naleznete spuštěné a oblíbené aplikace. Odlišíte je tak, že ty spuštěné jsou výrazně podtržené. Pokud chcete aplikaci zařadit mezi oblíbené, klikněte na ni v&#160;Dashi pravým tlačítkem myši a vyberte <emphasis>Přidat mezi oblíbené</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+<figure>
+<title>Práce s aplikacemi v Dashi</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/dash-b.png" contentwidth="300"/>
+</imageobject>
+<textobject><phrase>dash b</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Zobrazení všech aplikací</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/dash-a.png" contentwidth="300"/>
+</imageobject>
+<textobject><phrase>dash a</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Zobrazit aplikace</emphasis>&#8201;&#8212;&#8201;opět již zmíněný prvek. Toto tlačítko zobrazí spouštěče aplikací. V&#160;dolní části obrazovky pak můžete přepínat mezi často používanými aplikacemi a všemi aplikacemi.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Vyhledávání</emphasis>&#8201;&#8212;&#8201;prostředí <emphasis>GNOME</emphasis> nabízí také velmi mocné desktopové vyhledávání. Nemusíte do vyhledávacího pole klikat, po přepnutí do režimu <emphasis>Činnosti</emphasis> můžete začít rovnou psát a vyhledávání se aktivuje. Jedná se o&#160;nejrychlejší způsob, jak spouštět aplikace. Kromě nich ale můžete vyhledávat také dokumenty, obrázky, virtuální stroje, aplikace k&#160;instalaci, kontakty, atd. Nebo také provádět jednoduché výpočty. Co se má v <emphasis>Činnostech</emphasis> vyhledávat, můžete nastavit v&#160;systémových nastaveních pod položkou <emphasis>Hledání</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+<figure>
+<title>Integrované vyhledávání</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/vyhledavani.png" contentwidth="400"/>
+</imageobject>
+<textobject><phrase>vyhledavani</phrase></textobject>
+</mediaobject>
+</figure>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Virtuální plochy</emphasis>&#8201;&#8212;&#8201;na levé straně můžeme najít náhledy virtuálních ploch, kterých lze mít více, aniž by bylo nutné mít více monitorů. Slouží k&#160;organizaci oken a aplikací. <emphasis>GNOME</emphasis> nemá fixní počet ploch. Naopak, jejich počet je dynamický. Je jich vždycky tolik, na kolika z&#160;nich máte aktuálně umístěná okna, a jednu prázdnou navíc, která je připravená k&#160;použití. Když na ni přetáhnete okno, vytvoří se další prázdná a naopak. Přetahovat okna mezi plochami můžete přímo v&#160;náhledech, případně můžete přetáhnout náhled ze středu obrazovky do jednoho z&#160;náhledů. Přepínat mezi virtuálními plochami můžete také přímo v&#160;pracovním režimu pomocí klávesové zkratky <keycap>Ctrl</keycap>+<keycap>Alt</keycap>+<keycap>šipka ↑</keycap>/<keycap>šipka ↓</keycap>.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Náhledy otevřených oken</emphasis>&#8201;&#8212;&#8201;slouží k&#160;přehledu o&#160;tom, jaká okna máte otevřená, a také k&#160;přepínání mezi nimi. Přepnutí do vybraného okna provedete najetím myši na okno a kliknutím. Mezi okny můžete přepínat také klávesami. Stačí po přepnutí do <emphasis>Činností</emphasis> stisknout klávesu <keycap>šipka ↓</keycap> a potom pomocí šipek navigovat mezi okny. Přepnutí do vybraného okna provedete klávesou <keycap>Enter</keycap>.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_základní_nastavení">
+<title>Základní nastavení</title>
+<simpara><emphasis>Uživatelská a systémová nastavení</emphasis> Fedory nalezneme tak, že stejně jako u&#160;dříve popsaného způsobu napíšeme slovo <emphasis>nastavení</emphasis>, nebo přes samopopisnou ikonu v&#160;menu na liště zcela vpravo nahoře. Nastavení jsou členěna do přehledných kategorií <emphasis>Osobní</emphasis>, <emphasis>Hardware</emphasis> a <emphasis>Systém</emphasis>), kde je možné konfigurovat vše od uživatelských účtů, přes pozadí plochy, až po tiskárny. Naprostá většina běžné konfigurace bude probíhat právě zde. Aplikace umožňuje i propojení s&#160;množstvím online účtů, tedy s&#160;cloudovými službami, ať už používáte ownCloud, Google, Facebook a další. Takto přidaný účet umožní přístup k&#160;službám a datům daného poskytovatele a ostatním aplikacím. Používáte online chat? Potřebujete kontakty? Nic už není nutné zadávat znovu.</simpara>
+<figure>
+<title>Uživatelská a systémová nastavení</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/nastaveni.png" contentwidth="500"/>
+</imageobject>
+<textobject><phrase>nastaveni</phrase></textobject>
+</mediaobject>
+</figure>
+<figure>
+<title>Správa software ve Fedoře</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/software.png" contentwidth="500"/>
+</imageobject>
+<textobject><phrase>software</phrase></textobject>
+</mediaobject>
+</figure>
+</section>
+<section xml:id="_instalace_nového_softwaru">
+<title>Instalace nového softwaru</title>
+<simpara>Fedora už v&#160;základu obsahuje mnoho potřebných aplikací (webový prohlížeč <emphasis>Mozilla&#160;Firefox</emphasis>, kancelářský balík <emphasis>LibreOffice</emphasis>, multimediální přehrávač <emphasis>Totem</emphasis> a desítky dalších). Co když ale potřebujeme více programů? Ne všechen software může být zahrnut do výchozí instalace systému, je ale dostupný v&#160;tzv. repozitářích, z&#160;nichž lze daný program jednoduše stáhnout. Repozitář je tvořen sadou serverů a jejich zrcadel, kde jsou umístěny balíky s&#160;různými aplikacemi a knihovnami. Slyšeli jste o&#160;\uv{appstore} na různých mobilních platformách? Pak jste velice blízko, základní princip je stejný. Chcete nějaký program stáhnout z&#160;webu a nainstalovat? Zkuste se nejprve podívat, zda není k&#160;dispozici v&#160;repozitářích. Na Linuxu se tak instaluje naprostá většina aplikací. Jak tedy na to?</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Grafický správce</emphasis>&#8201;&#8212;&#8201;aplikace <emphasis>Software</emphasis> je přesně ten druh programu, který znáte z&#160;libovolné mobilní platformy. Je to elegantní a přehledná vstupní brána do repozitářů, kde lze dle názvu (nebo v&#160;rámci kategorie) vyhledávat celistvé aplikace a různé doplňky pro systém. Každá aplikace zde má svůj přehledný popis včetně licence a své velikosti. Stále platí: vše je opensource, vše je bezplatné. Přes nástroj <emphasis>Software</emphasis> můžeme aplikace samozřejmě i odinstalovat a setkáme se s&#160;ním vždy, když budeme systém (a balíky v&#160;něm) aktualizovat.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Nástroj DNF</emphasis>&#8201;&#8212;&#8201;skrze nástroj <emphasis>Software</emphasis> lze v&#160;repozitářích dohledat hlavně ucelené spustitelné aplikace. Není ale určen na dohledání jednotlivé (třeba vývojářské) knihovny, dokumentace nebo různých dílčích utilit. Ve Fedoře je přitom takřka dvacet tisíc balíků, zdaleka ne všechny však obsahují pouze aplikace. Pro přístup ke všem balíkům (a jejich vyhledávání, instalaci, apod.) můžeme použít nástroj <emphasis>dnf</emphasis> (určený pro práci v&#160;shellu, není však těžké se jej naučit užívat) nebo jeho nadstavbu <emphasis>Yum extender (DNF)</emphasis>, která je opět grafická a dává nám veškerý uživatelský komfort.
+\end{enumerate}</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_kodeky_a_další_software">
+<title>Kodeky a další software</title>
+<simpara>Co když nějaký software k&#160;dispozici v&#160;repozitářích není? I&#160;taková situace může nastat. Často se jedná o&#160;specifický kodek nebo ovladač. Takový software nemusí být nezbytně placený, může být volně dostupný, ale už ho není (z&#160;licenčních, nebo patentových důvodů) možné zahrnout do Fedory. Tady nastupují repozitáře třetích stran, které nejsou spravované ani jinak spojené s&#160;Fedorou, ale mohou být velmi užitečné. (Dodejme, že za tyto zdroje softwaru nenese Fedora Project zodpovědnost a že nemusí mít vyřešenou právní nezávadnost podle autorského a patentového práva.)</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Firemní repozitáře</emphasis>&#8201;&#8212;&#8201;korporace jako Google nebo Adobe nabízejí zdroje software obsahující jejich produkty. Jsou to různé vývojářské utility, ale i programy jako <emphasis>Google Chrome</emphasis>, <emphasis>Adobe Flash plugin</emphasis> a další. Jak jednou z&#160;jejich webu nainstalujeme balík přidávající do našeho systému repozitář, vidíme dostupný software v&#160;nástrojích stejně tak jako dříve zmíněný <emphasis>Software</emphasis> nebo <emphasis>dnf</emphasis>. Obdobným způsobem ho pak také spravujeme.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Další repozitáře</emphasis>&#8201;&#8212;&#8201;existují velké zdroje software třetích stran s&#160;množstvím balíků, ke kterým např. nemáme k&#160;dispozici zdrojové kódy nebo jsou jinak nevyhovující, ale které jsou stále užitečné. Multimediální kodeky a různé specifické ovladače pak můžeme nalézt v&#160;repozitářích jako je (asi nejznámější) <emphasis>RPMFusion</emphasis>. Instalace balíků pak opět probíhá analogicky.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis>Copr repozitáře</emphasis>&#8201;&#8212;&#8201;na rozdíl od předchozích dvou zmíněných variant jsou repozitáře Copr za všech okolností licenčně čisté. Je snadné je přidat a jsou, vedle oficiálních repozitářů, momentálně největší zdroj softwaru pro Fedoru. Může se jednat o&#160;nové verze desktopových prostředí, frameworků apod. Samozřejmě při práci s&#160;nimi je vždy nutné zjistit, co přesně daný software v&#160;systému způsobí. Naleznete je na adrese <link xlink:href="http://copr.fedoraproject.org">copr.fedoraproject.org</link>.</simpara>
+</listitem>
+</orderedlist>
+</section>
+</chapter>
+<chapter xml:id="_jak_fedoru_přizpůsobit">
+<title>Jak Fedoru přizpůsobit?</title>
+<section xml:id="_rozšíření_pro_gnome_shell">
+<title>Rozšíření pro GNOME Shell</title>
+<simpara>GNOME Shell disponuje rozšířeními, jež jsou mocnou zbraní co do přizpůsobení systému jednotlivému uživateli. Instalují se přímo v&#160;prostředí webového prohlížeče z&#160;webu <link xlink:href="http://extensions.gnome.org">extensions.gnome.org</link>. Jedná se o&#160;stovky rozšíření, které doplňují nebo mění jednotlivé prvky uživatelského prostředí. Změny menu, ikon, panelů, indikace, zobrazení, přepínání oken a nesčetné množství dalších.</simpara>
+</section>
+<section xml:id="_vylaďovací_nástroj_gnome">
+<title>Vylaďovací nástroj GNOME</title>
+<simpara>Aneb <emphasis>GNOME Tweak Tool</emphasis>. Nástroj zahrnutý ve Fedoře, pomocí něhož lze podrobně, až do nejmenších detailů, nastavit jemnosti, které výchozí konfigurační nástroj neobsahuje. Můžeme zde namátkou měnit znělku prostředí, přesné chování virtuálních ploch, chování při napájení, písma aplikací, klávesové zkratky a opět desítky dalších věcí. Ostatně, můžeme zde spravovat i výše zmíněná rozšíření.</simpara>
+</section>
+</chapter>
+<chapter xml:id="_chcete_vědět_víc">
+<title>Chcete vědět víc?</title>
+<section xml:id="_kam_se_podívat_dál">
+<title>Kam se podívat dál?</title>
+<simpara>Naše příručka má skromné ambice, ale co když narazíte na problém, který nejste schopni rychle vyřešit? Základní pravidlo zní: problém, který řešíte, už takřka jistě řešil někdo před vámi. Kam se tedy podívat?</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xlink:href="http://mojefedora.cz">mojefedora.cz</link>&#8201;&#8212;&#8201;z&#160;českých webů ve vztahu k&#160;Fedoře zásadní stránky (a univerální rozcestník). Obsahuje množství článků, tipů a dalších informací.</simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="http://wiki.mojefedora.cz">wiki.mojefedora.cz</link>&#8201;&#8212;&#8201;příručka o&#160;Fedoře, na které mnoho lidí odvedlo obrovské množství práce. Mnoho návodů, které hledáte, budou právě zde.</simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="http://forum.mojefedora.cz">forum.mojefedora.cz</link>&#8201;&#8212;&#8201;fórum v&#160;českém jazyce hodící se vždy, když nejste schopni problém vyřešit sami nebo když sami chcete nabídnout svou pomoc.</simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="http://fedoraforum.org">fedoraforum.org</link>&#8201;&#8212;&#8201;fórum v&#160;anglickém jazyce s&#160;rozsáhlou uživatelskou základou a dlouhou historií řešených problémů. Nyní už byste mohli být v&#160;cíli.</simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="http://fedoramagazine.org">fedoramagazine.org</link>&#8201;&#8212;&#8201;články o&#160;dění kolem Fedory. Nové aplikace a oznámení.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_co_když_narazím_na_chybu">
+<title>Co když narazím na chybu?</title>
+<simpara>Je docela možné, že se dostanete do situace, kdy narazíte na chybu zcela novou. Co pak? Fedora používá bugzillu společnosti Red Hat, která je dostupná z&#160;adresy <link xlink:href="http://bugzilla.redhat.com">bugzilla.redhat.com</link>. (Nutno podotknout, že nezbytností při hlášení chyb je angličtina, alespoň na základní úrovni.) Není to ale jediná možnost, jak chybu ohlásit. Ve Fedoře je dostupný nástroj ABRT. Budeme-li citovat klasický snímek, pak daný nástroj vystihuje spojení <emphasis>každý přispívá podle svých možností</emphasis> a ABRT koná přesně v&#160;tom duchu.</simpara>
+</section>
+<section xml:id="_další_edice_fedory">
+<title>Další edice Fedory</title>
+<simpara>Zde se dostáváme k&#160;věcem, ve kterých se Fedora odlišuje od obecného spektra linuxových operačních systémů. Fedora doznala své podoby ve třech hlavních edicích. Už dříve popsaná je edice <emphasis>Workstation</emphasis>, dále pak tu máme edice <emphasis>Server</emphasis> a <emphasis>Cloud</emphasis>. Pojďme na ně. U&#160;edice <emphasis>Server</emphasis> lze vyzdvihnout aplikace jako Cockpit sloužící pro vzdálenou správu běžících serverů prostřednictvím webového prohlížeče nebo administraci serverových rolí přes Rolekit. U&#160;edice <emphasis>Cloud</emphasis> pak máme k&#160;dispozici minimalistickou verzi Fedory, která umožňuje akorát nasazení kontejnerů. A&#160;že existuje hned několik obrazů Fedory Cloud připravených pro nasazení v&#160;prostředí <emphasis>OpenStack</emphasis>, <emphasis>VirtualBox</emphasis> a dalších.</simpara>
+</section>
+<section xml:id="_fedora_a_spiny">
+<title>Fedora a spiny</title>
+<simpara>Vše, co dosud padlo ve vztahu k&#160;Fedora <emphasis>Workstation</emphasis>, se týkalo výchozího cílení toho operačního systému, jehož desktopovým prostředím je <emphasis>GNOME&#160;3</emphasis> a jeho <emphasis>GNOME Shell</emphasis>. Co když se ale chceme rozhlédnout dále? Ve Fedoře existují tzv. spiny, čili připravené instalační obrazy se specifickým cílením. Jste zvyklí na <emphasis>KDE Plasma</emphasis>? Je tu <emphasis>KDE Plasma Desktop</emphasis>. <emphasis>Xfce</emphasis>? <emphasis>LXDE</emphasis>? Pro vše tu jsou připravené obrazy. Ale ani u&#160;Fedora spinů se nemusíme zastavit. V&#160;dnešní době je velmi aktuální procesorová architektura ARM (nejčastější mobilní platforma, platforma pro různé vývojové desky à la Banana Pi, BeagleBone, nebo v&#160;případě Fedora Remixu i Raspberry Pi). Stejně jako některé další linuxové operační systémy i Fedora má pro tuto architekturu připravené řešení ve formě jak serverové verze, tak minimálního instalačního obrazu pro obecné použití.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 <simpara><emphasis>Začínáme s Fedorou</emphasis></simpara>
 <simpara><emphasis>Autor:</emphasis><?asciidoc-br?>
