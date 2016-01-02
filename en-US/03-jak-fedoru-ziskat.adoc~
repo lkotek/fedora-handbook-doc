@@ -1,0 +1,37 @@
+== How to Get Fedora?
+=== Try and Install
+
+It is possible to install Fedora both from optical media (CD, DVD), and USB flash drive, or over network. Images of _Fedora Workstation_ are available to download in the ISO format at link:http://getfedora.org[getfedora.org]. _Fedora Workstation_ is primarily offered as 64bit. It's the default option for downloads (because it's the best variant for users in most cases). It's so called \sloppy{live image which allows you to boot to a fully fuctional system and find out what Fedora is about, whether it fully supports hardware in your computer etc. It's important to point out that you don't have to do any irreversible changes. What is currently installed on your computer is not touched. Very handy. It's also worth noting that to run _Fedora Workstation_ reasonably (it's not minimal requirements) you'll need at least a 1GHz processor, 2 GiB of memory, 10 GiB of hard drive space, and a graphics card that supports hardware acceleration.
+
+=== Create Install Media
+
+1. _Fedora LiveUSB Creator_ -- if your computer doesn't have optical drive, you'll need to write the downloaded image to a USB flash drive using _Fedora LiveUSB Creator_ (it can run on _MS Windows_ or Linux). Beware, the operation will erase all the data previously saved on the flash drive! _Fedora LiveUSB Creator_ can even download the install image for you. You can get the app at link:https://fedorahosted.org/liveusb-creator].
+
+2. _DVD_ -- a very traditional way to create an install media is to write an ISO image on DVD. Most of the modern operating systems can do this operation by default. If not, you can install a specialized application (we can recommend _Brasero_ on Linux and _ImgBurn_ on _MS Windows_).
+
+3. _GNOME and Disks_ -- if you already use a Linux operating system (with installed GNOME desktop environment), you also have other options. When you browse files (in the _Files_ app), you can right-click an ISO image, choose "`Open in a different app`" and then choose "`Write on disk`". It will open the _Disks_ utility which will write the image on a flash drive.
+
+.Booted install media of Fedora
+image::img/instalator-a.png[width=500]
+
+If you decide to write the install image on a USB flash drive, you have to double-check that you've picked the correct drive. If you're doing the operation on _MS Windows_, you need to pick the character that has been assigned to the drive you'd like to use (most often `D:` or `E:`). On Linux, you need to do the same (a flash drive typically will be `/dev/sdX` where `X` is a certain character). The easiest and safest way to find it out is using the _Disks_ utility where you can find a lot of useful information about drives.
+
+=== Installation of Fedora
+
+1. _Booting_ -- no matter what media you've chosen, you'll need to make sure that you set the right boot sequence in BIOS of the computer you'd like to install Fedora on. The drive with the install media needs to be on the first place. You can get to the BIOS configuration by pressing a key after starting the computer. The key depends on the vendor (typically kbd:[Delete], kbd:[F1], or {nbsp}kbd:[F2]). Many vendors allow you to choose a boot drive without having to go to the BIOS settings by pressing the kbd:[F12] key.  
+
+.Fedora Installer
+image::img/instalator-b.png[width=500]
+
+2. _Initial Screen_ -- after successful booting you'll see the initial screen where you can choose between installing Fedora (and booting into the live system) and verifying the install media. If you choose the installation, you'll boot into the live system and will be asked if you want to try the system out or install it on the hard drive. If you choose the first option, you can try live Fedora for as long as you want and you can choose installation any time during that by clicking the installer icon in the menu.
+
+3. _GNOME Shell_ -- if you've chosen to try the system, you now is the _GNOME Shell_ which is known for its top panel with most used control elements. There is a _Activities_ button in the upper left corner which will get you to applications (and to already mentioned option to install the system). The upper right corner is relevant if you want to set up the network, restart or shutdown the system.
+
+4. _Instalátor_ -- když zvolíme možnost instalovat na pevný disk, jsme postupně provázeni pomocí přehledného průvodce. Volíme krok za krokem jazyková nastavení, časové pásmo, až se dostaneme k{nbsp}bodu rozdělení disku. Čili k{nbsp}zásadnímu bodu řešícímu, kam se Fedora fyzicky nainstaluje. Fedora nabízí automatické rozložení, při kterém oddíly vytvoří sama, a samozřejmě i rozdělení ruční. Je také možné nastavit, které oddíly budou šifrované.
+
+5. _Pevný disk_ -- Fedora v{nbsp}této fázi umožňuje i vytvoření tzv. dualbootu, čili provozování dvou operačních systémů v{nbsp}rámci jednoho počítače. Není problém ji tak doinstalovat vedle už existující instalace _MS{nbsp}Windows_. V{nbsp}rámci dialogu je vlevo po celou dobu k{nbsp}dispozici přehled existujících oddílů. Než změny potvrdíte, pečlivě si zkontrolujte, že jsou tam všechny (např. oddíly jiných operačních systému), které tam mají být. Po odsouhlasení tohoto kroku proběhnou nevratné změny a zápis nového rozložení na disk.
+
+6. _Závěr_ -- zatímco se systém instaluje, vyplníme několik zásadních údajů, jako je heslo roota (administrátora) a vytvoříme uživatelský účet, pod kterým budeme běžně pracovat (a opět mu nastavíme heslo). Pozor, Fedora uplatňuje, na rozdíl od mnoha dalších linuxových distribucí, klasický přístup k{nbsp}uživatelským účtům, při kterém účet uživatele root není zakázaný. Potřebujeme tedy nastavit a znát minimálně dvě hesla. Nevyhovuje vám toto nastavení? Nevadí, i u{nbsp}našeho běžného účtu můžeme zaškrtnout volbu _Správce_, která nám umožní velkou část správcovské činnosti stvrdit i pod naším běžným účtem a tedy i jeho heslem.
+
+7. _A{nbsp}je hotovo_ -- celá instalace by neměla zabrat více než několik desítek minut. Po restartu a přihlášení provedeme ještě několik krátkých poinstalačních nastavení (a pokud jsme měnili nastavení bootování, uvedeme ho do původního stavu) a systém je připraven. Zdařilo se? Můžeme tak začít používat Fedoru v{nbsp}celé její kráse!
+
