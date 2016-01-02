@@ -1,0 +1,3 @@
+== Introduction
+
+You've decided to install the operating system Fedora on your workstation, desktop, laptop, netbook... (let's call it a PC). How to proceed? What are the strengths of Fedora compared to other operating systems? How to get it and install it? How to tweak it to your taste and for a particular use? Let's look at it step by step.

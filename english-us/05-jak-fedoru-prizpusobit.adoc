@@ -1,0 +1,8 @@
+== Jak Fedoru přizpůsobit?
+=== Rozšíření pro GNOME Shell
+
+GNOME Shell disponuje rozšířeními, jež jsou mocnou zbraní co do přizpůsobení systému jednotlivému uživateli. Instalují se přímo v{nbsp}prostředí webového prohlížeče z{nbsp}webu link:http://extensions.gnome.org[extensions.gnome.org]. Jedná se o{nbsp}stovky rozšíření, které doplňují nebo mění jednotlivé prvky uživatelského prostředí. Změny menu, ikon, panelů, indikace, zobrazení, přepínání oken a nesčetné množství dalších.
+
+=== Vylaďovací nástroj GNOME
+
+Aneb _GNOME Tweak Tool_. Nástroj zahrnutý ve Fedoře, pomocí něhož lze podrobně, až do nejmenších detailů, nastavit jemnosti, které výchozí konfigurační nástroj neobsahuje. Můžeme zde namátkou měnit znělku prostředí, přesné chování virtuálních ploch, chování při napájení, písma aplikací, klávesové zkratky a opět desítky dalších věcí. Ostatně, můžeme zde spravovat i výše zmíněná rozšíření.
