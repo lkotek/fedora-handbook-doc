@@ -1,8 +1,6 @@
-== Jak Fedoru přizpůsobit?
-=== Rozšíření pro GNOME Shell
+== How to tweak Fedora?
+=== GNOME Shell Extensions
+There are extensions available for GNOME Shell which are powerful weapon in terms of customizing system for single user. They're installed directly through the web browser environment from website link:http://extensions.gnome.org[extensions.gnome.org]. There are houndreds of extensions which are adding or changing single elements of user interface. Changes of menu, icons, panels, indications, displays, window switching and many others.
 
-GNOME Shell disponuje rozšířeními, jež jsou mocnou zbraní co do přizpůsobení systému jednotlivému uživateli. Instalují se přímo v{nbsp}prostředí webového prohlížeče z{nbsp}webu link:http://extensions.gnome.org[extensions.gnome.org]. Jedná se o{nbsp}stovky rozšíření, které doplňují nebo mění jednotlivé prvky uživatelského prostředí. Změny menu, ikon, panelů, indikace, zobrazení, přepínání oken a nesčetné množství dalších.
-
-=== Vylaďovací nástroj GNOME
-
-Aneb _GNOME Tweak Tool_. Nástroj zahrnutý ve Fedoře, pomocí něhož lze podrobně, až do nejmenších detailů, nastavit jemnosti, které výchozí konfigurační nástroj neobsahuje. Můžeme zde namátkou měnit znělku prostředí, přesné chování virtuálních ploch, chování při napájení, písma aplikací, klávesové zkratky a opět desítky dalších věcí. Ostatně, můžeme zde spravovat i výše zmíněná rozšíření.
+=== GNOME Tweak Tool
+GNOME Tweak Tool is tool included in Fedora. You can precisely set fineness that cannot be set with default configruation tool. We can change sound of the environment, precise setting of virtual desktop's behavior, behavior during charging, fonts in applications, keyboard shortcuts and tens of other things. Anyway, we can manage extensions mentioned above in GNOME Tweak Tool.
