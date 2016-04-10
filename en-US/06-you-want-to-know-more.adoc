@@ -1,26 +1,16 @@
-== Chcete vědět víc?
-=== Kam se podívat dál?
+== You want to know more?
+=== Where to look further?
 
-Naše příručka má skromné ambice, ale co když narazíte na problém, který nejste schopni rychle vyřešit? Základní pravidlo zní: problém, který řešíte, už takřka jistě řešil někdo před vámi. Kam se tedy podívat?
+Our handbook has humble ambitions but what can you do if you encounter a bug you can't quickly solve? Basic rule is: problem that you are trying to solve was probably solved by somebody else before you. Where to look for solutions?
 
-* link:http://mojefedora.cz[mojefedora.cz] -- z{nbsp}českých webů ve vztahu k{nbsp}Fedoře zásadní stránky (a univerální rozcestník). Obsahuje množství článků, tipů a dalších informací.
+* link:http://fedoraforum.org[fedoraforum.org] -- forum in{nbsp}English with very large user base and long history of solved problems.
+* link:http://fedoramagazine.org[fedoramagazine.org] -- articles from Fedora world. New applications and annoucements.
 
-* link:http://wiki.mojefedora.cz[wiki.mojefedora.cz] -- příručka o{nbsp}Fedoře, na které mnoho lidí odvedlo obrovské množství práce. Mnoho návodů, které hledáte, budou právě zde.
+=== What to do if I encounter a bug?
+It is possible that you have reached situation when you encounter a new bug. What then? Fedora is using bugzilla from Red Hat. It is available on address link:http://bugzilla.redhat.com[bugzilla.redhat.com]. (It's necessary to point that it is required to use English in bug reporting, at least at basic level.) It's not the only possibility to report a bug. There is a tool in Fedora called ABRT. ABRT can be described by quotation from classic movie - "everybody contributes accordingly to his possibilities".
 
-* link:http://forum.mojefedora.cz[forum.mojefedora.cz] -- fórum v{nbsp}českém jazyce hodící se vždy, když nejste schopni problém vyřešit sami nebo když sami chcete nabídnout svou pomoc.
+=== Other Fedora Editions
+Here we are coming to things where Fedora differ from generic Linux operating systems. Fedora consists of 3 main editions. We have described Workstation already then we have editions _Server_ and _Cloud_. Let's get to them. For _Server_ edition we can highlight applications like Cockpit which serves for remote management of running servers through interface of the web browser or administration of server roles through Rolekit. For _Cloud_ edition we have minimal version of Fedora available which fits perfectly for deploying containers. There are multiple images of Fedora Cloud modified for deploy to environment of _OpenStack_, _VirtualBox_ and others.
 
-* link:http://fedoraforum.org[fedoraforum.org] -- fórum v{nbsp}anglickém jazyce s{nbsp}rozsáhlou uživatelskou základou a dlouhou historií řešených problémů. Nyní už byste mohli být v{nbsp}cíli.
-
-* link:http://fedoramagazine.org[fedoramagazine.org] -- články o{nbsp}dění kolem Fedory. Nové aplikace a oznámení.
-
-=== Co když narazím na chybu?
-
-Je docela možné, že se dostanete do situace, kdy narazíte na chybu zcela novou. Co pak? Fedora používá bugzillu společnosti Red Hat, která je dostupná z{nbsp}adresy link:http://bugzilla.redhat.com[bugzilla.redhat.com]. (Nutno podotknout, že nezbytností při hlášení chyb je angličtina, alespoň na základní úrovni.) Není to ale jediná možnost, jak chybu ohlásit. Ve Fedoře je dostupný nástroj ABRT. Budeme-li citovat klasický snímek, pak daný nástroj vystihuje spojení _každý přispívá podle svých možností_ a ABRT koná přesně v{nbsp}tom duchu.
-
-=== Další edice Fedory
-
-Zde se dostáváme k{nbsp}věcem, ve kterých se Fedora odlišuje od obecného spektra linuxových operačních systémů. Fedora doznala své podoby ve třech hlavních edicích. Už dříve popsaná je edice _Workstation_, dále pak tu máme edice _Server_ a _Cloud_. Pojďme na ně. U{nbsp}edice _Server_ lze vyzdvihnout aplikace jako Cockpit sloužící pro vzdálenou správu běžících serverů prostřednictvím webového prohlížeče nebo administraci serverových rolí přes Rolekit. U{nbsp}edice _Cloud_ pak máme k{nbsp}dispozici minimalistickou verzi Fedory, která umožňuje akorát nasazení kontejnerů. A{nbsp}že existuje hned několik obrazů Fedory Cloud připravených pro nasazení v{nbsp}prostředí _OpenStack_, _VirtualBox_ a dalších.
-
-=== Fedora a spiny
-
-Vše, co dosud padlo ve vztahu k{nbsp}Fedora _Workstation_, se týkalo výchozího cílení toho operačního systému, jehož desktopovým prostředím je _GNOME{nbsp}3_ a jeho _GNOME Shell_. Co když se ale chceme rozhlédnout dále? Ve Fedoře existují tzv. spiny, čili připravené instalační obrazy se specifickým cílením. Jste zvyklí na _KDE Plasma_? Je tu _KDE Plasma Desktop_. _Xfce_? _LXDE_? Pro vše tu jsou připravené obrazy. Ale ani u{nbsp}Fedora spinů se nemusíme zastavit. V{nbsp}dnešní době je velmi aktuální procesorová architektura ARM (nejčastější mobilní platforma, platforma pro různé vývojové desky à la Banana Pi, BeagleBone, nebo v{nbsp}případě Fedora Remixu i Raspberry Pi). Stejně jako některé další linuxové operační systémy i Fedora má pro tuto architekturu připravené řešení ve formě jak serverové verze, tak minimálního instalačního obrazu pro obecné použití.
+=== Fedora and spins
+Everything what we said about Fedora _Workstation_ was meant for default targeting of this operating systems which uses _GNOME{nbsp}3_ and it's _GNOME Shell_. But what if we want to  move further? In Fedora exists "spins" - prepared installation images for specific targeting. You are used to _KDE Plasma_? There is _KDE Plasma Desktop_. _Xfce_? _LXDE_? We have prepared images for everything. But we don't have to stop with Fedora spins. Nowadays when ARM architecture is popular, most used mobile platform, platform for development boards (like Banana Pi, BeagleBone or even Raspberry Pi in case of Fedora Remix). As other Linux systems even Fedora has prepared solution for this architecture in form of server version or minimal install image for generic use.
