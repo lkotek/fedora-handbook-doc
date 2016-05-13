@@ -11,16 +11,17 @@ image::img/shell-a.png[width=500]
 What's specific about working in _GNOME_? First of all notice that windows only have the close button. You'll understand why when we explain the _Activities_ overview. Minimalization doesn't make sense in the _GNOME_ desktop environment and you can maximize a window by dragging it to the top edge of the screen or by clicking the title bar. The goal of the environment is to stand in your way as least as possible which is why only the top panel is shown. We'll use the next picture to explain you the most important UI entities.
 
 1. _Activities_ -- this button switches the desktop to the _Activities_ overview which is explained more in detail below. It's the starting point for most activities you do in the desktop system.
-2. _Application Menu_ -- you'll find an application menu under the app icon. This menu is associated with the whole application (app settings, about etc.). Options that are related to individual windows of the app are in the windows themselves. Not every application has this menu. If it doesn't have it, you'll only find _Close_ button there.
 
+2. _Application Menu_ -- you'll find an application menu under the app icon. This menu is associated with the whole application (app settings, about etc.). Options that are related to individual windows of the app are in the windows themselves. Not every application has this menu. If it doesn't have it, you'll only find _Close_ button there.
++
 .Application menu
 image::img/menu-aplikace.png[width=300]
 
 3. _Clock and calendar_ -- you'll find missed notifications and calendar under the date and time. If you use one of the apps that use the calendar backend of _GNOME_ (e.g. _Evolution_), you'll also see events you've previously saved in these apps.
-
++
 .Clock and calendar
 image::img/kalendar.png[width=500]
-
++
 .User menu
 image::img/menu.png[width=350]
 
@@ -34,17 +35,17 @@ The _Activities_ overview is for launching apps, switching between them, switchi
 image::img/shell-b.png[width=500]
 
 1. _Dash_ -- jedná se o{nbsp}panel (_menu_), na kterém naleznete spuštěné a oblíbené aplikace. Odlišíte je tak, že ty spuštěné jsou výrazně podtržené. Pokud chcete aplikaci zařadit mezi oblíbené, klikněte na ni v{nbsp}Dashi pravým tlačítkem myši a vyberte _Přidat mezi oblíbené_.
-
++
 .Práce s aplikacemi v Dashi
 image::img/dash-b.png[width=300]
-
++
 .Zobrazení všech aplikací
 image::img/dash-a.png[width=300]
 
 2. _Zobrazit aplikace_ -- opět již zmíněný prvek. Toto tlačítko zobrazí spouštěče aplikací. V{nbsp}dolní části obrazovky pak můžete přepínat mezi často používanými aplikacemi a všemi aplikacemi.
 
 3. _Vyhledávání_ -- prostředí _GNOME_ nabízí také velmi mocné desktopové vyhledávání. Nemusíte do vyhledávacího pole klikat, po přepnutí do režimu _Činnosti_ můžete začít rovnou psát a vyhledávání se aktivuje. Jedná se o{nbsp}nejrychlejší způsob, jak spouštět aplikace. Kromě nich ale můžete vyhledávat také dokumenty, obrázky, virtuální stroje, aplikace k{nbsp}instalaci, kontakty, atd. Nebo také provádět jednoduché výpočty. Co se má v _Činnostech_ vyhledávat, můžete nastavit v{nbsp}systémových nastaveních pod položkou _Hledání_.
-
++
 .Integrované vyhledávání
 image::img/vyhledavani.png[width=400]
 
