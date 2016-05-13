@@ -1,16 +1,19 @@
-== You want to know more?
-=== Where to look further?
+== Where to look for further Information
 
-Our handbook has humble ambitions but what can you do if you encounter a bug you can't quickly solve? Basic rule is: problem that you are trying to solve was probably solved by somebody else before you. Where to look for solutions?
+This handbook exists to help you get started with Fedora. But, what can you do if you encounter a problem that you can't quickly solve? A good rule of thumb is to remember that any problem you're encountering has probably already been solve was probably solved by somebody else before you. Here is where to look for solutions:
 
-* link:http://fedoraforum.org[fedoraforum.org] -- forum in{nbsp}English with very large user base and long history of solved problems.
-* link:http://fedoramagazine.org[fedoramagazine.org] -- articles from Fedora world. New applications and annoucements.
+* link:http://fedoraforum.org[fedoraforum.org] -- English language forums with very large user base and long history of solved problems.
+* link:http://fedoramagazine.org[fedoramagazine.org] -- articles from Fedora world. This also includes information about new applications and annoucements.
 
-=== What to do if I encounter a bug?
-It is possible that you have reached situation when you encounter a new bug. What then? Fedora is using bugzilla from Red Hat. It is available on address link:http://bugzilla.redhat.com[bugzilla.redhat.com]. (It's necessary to point that it is required to use English in bug reporting, at least at basic level.) It's not the only possibility to report a bug. There is a tool in Fedora called ABRT. ABRT can be described by quotation from classic movie - "everybody contributes accordingly to his possibilities".
+=== What to do if you encounter a bug
+It is possible that you will encounter a bug. What then? Fedora uses Bugzilla, a bug tracker, provided by Red Hat. It is available online at link:http://bugzilla.redhat.com[bugzilla.redhat.com]. Bugs are required to be reported in English.
+
+There is a also a tool in Fedora called ABRT. ABRT can be described by quotation from a classic movie - "everybody contributes accordingly to his possibilities".
 
 === Other Fedora Editions
-Here we are coming to things where Fedora differ from generic Linux operating systems. Fedora consists of 3 main editions. We have described Workstation already then we have editions _Server_ and _Cloud_. Let's get to them. For _Server_ edition we can highlight applications like Cockpit which serves for remote management of running servers through interface of the web browser or administration of server roles through Rolekit. For _Cloud_ edition we have minimal version of Fedora available which fits perfectly for deploying containers. There are multiple images of Fedora Cloud modified for deploy to environment of _OpenStack_, _VirtualBox_ and others.
+Unline many other generic Linux operating systems, Fedora consists of 3 main editions. This guide describes the Workstation edition. There are also _Server_ and _Cloud_ Editions. The _Server_ edition is designed for server uses and features applications like Cockpit which allows for easy remote management of servers through a web browser and the administration of server roles through _Rolekit_. The _Cloud_ edition is a minimal version of Fedora optimized for deploying containers. There are multiple Fedora Cloud images opitimized for use in environments like _OpenStack_, _VirtualBox_ and others.
 
-=== Fedora and spins
-Everything what we said about Fedora _Workstation_ was meant for default targeting of this operating systems which uses _GNOME{nbsp}3_ and it's _GNOME Shell_. But what if we want to  move further? In Fedora exists "spins" - prepared installation images for specific targeting. You are used to _KDE Plasma_? There is _KDE Plasma Desktop_. _Xfce_? _LXDE_? We have prepared images for everything. But we don't have to stop with Fedora spins. Nowadays when ARM architecture is popular, most used mobile platform, platform for development boards (like Banana Pi, BeagleBone or even Raspberry Pi in case of Fedora Remix). As other Linux systems even Fedora has prepared solution for this architecture in form of server version or minimal install image for generic use.
+=== Fedora Spins
+Everything in this guide is about the default Fedora _Workstation_ edition. This version uses _GNOME{nbsp}3_ and the _GNOME Shell_. However, there are alternatives to Gnome. Fedora spins, which are alternative software builds of Fedora exist for other window managers. So, if you want to to use _KDE Plasma Desktop_, you'll find a spin built image for that. _Xfce_? _LXDE_? We have prepared images for everything.
+
+But we don't have to stop with Fedora spins. Nowadays the ARM architecture is popular. It is the most used mobile platform and is a significant platform for development boards, such as the Banana Pi, BeagleBone, and the Raspberry Pi. There are images built to run on these kinds of systems too in the form of server versions or minimal install images.
