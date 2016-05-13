@@ -1,37 +1,44 @@
 == How to Get Fedora?
 === Try and Install
 
-It is possible to install Fedora both from optical media (CD, DVD), and USB flash drive, or over network. Images of _Fedora Workstation_ are available to download in the ISO format at link:http://getfedora.org[getfedora.org]. _Fedora Workstation_ is primarily offered as 64bit. It's the default option for downloads (because it's the best variant for users in most cases). It's so called \sloppy{live image which allows you to boot to a fully fuctional system and find out what Fedora is about, whether it fully supports hardware in your computer etc. It's important to point out that you don't have to do any irreversible changes. What is currently installed on your computer is not touched. Very handy. It's also worth noting that to run _Fedora Workstation_ reasonably (it's not minimal requirements) you'll need at least a 1GHz processor, 2 GiB of memory, 10 GiB of hard drive space, and a graphics card that supports hardware acceleration.
+It is possible to install Fedora from optical media (CD, DVD), a USB flash drive, or over the network. This is accomplished by accessing an installation image. Installation images of _Fedora{nbsp}Workstation_ are available for download in ISO format at link:http://getfedora.org[getfedora.org]. _Fedora Workstation_ defaults to a 64bit operating system download as that is what is best for most users.
 
-=== Create Install Media
+If you aren't ready to install yet and want to try it first, there is a way to do so without losing or changing anything already on your PC. This is done by using a live image which allows you to boot to a fully fuctional system and find out what Fedora is like, experiment, and determine whether it fully supports your PC's hardware.
 
-1. _Fedora LiveUSB Creator_ -- if your computer doesn't have optical drive, you'll need to write the downloaded image to a USB flash drive using _Fedora LiveUSB Creator_ (it can run on _MS Windows_ or Linux). Beware, the operation will erase all the data previously saved on the flash drive! _Fedora LiveUSB Creator_ can even download the install image for you. You can get the app at link:https://fedorahosted.org/liveusb-creator].
+To run _Fedora Workstation_ reasonably it is recommend that you have at least a 1GHz processor, 2 GiB of memory, 10 GiB of hard drive space, and a graphics card that supports hardware acceleration. These aren't the minimum requirements, but they are the best for most users. Some users may wish to run Fedora on lower powered machines and will find it performs well there too.
 
-2. _DVD_ -- a very traditional way to create an install media is to write an ISO image on DVD. Most of the modern operating systems can do this operation by default. If not, you can install a specialized application (we can recommend _Brasero_ on Linux and _ImgBurn_ on _MS Windows_).
+==== Creating Install Media
 
-3. _GNOME and Disks_ -- if you already use a Linux operating system (with installed GNOME desktop environment), you also have other options. When you browse files (in the _Files_ app), you can right-click an ISO image, choose "`Open in a different app`" and then choose "`Write on disk`". It will open the _Disks_ utility which will write the image on a flash drive.
+If you're going need to create installaiton media, the following options may be helpful:
 
+* _USB Installation_ - To create a USB installation drive, you can use the _Fedora LiveUSB Creator_. It can run on _MS Windows_ or Linux. Beware, this program will erase all the data on the flash drive! _Fedora LiveUSB Creator_ can download the installation image for you when you run it. You can get this app at link:https://fedorahosted.org/liveusb-creator].
++
+_GNOME and Disks_ - If you already use a Linux operating system (with the GNOME desktop environment), you can use built-in software to write a USB drive. In the _Files_ app, you can right-click an ISO image, choose "`Open in a different app`" and then choose "`Write on disk`". This will open the _Disks_ utility which will write the image on to a flash drive.
++
+If you decide to write the install image on to a USB flash drive, you should carefully double-check that you've picked the correct target drive. If you're doing this on _MS Windows_, you need to pick the character that has been assigned to the drive you'd like to use (typically this will be `D:` or `E:`). On Linux, you need to do the same using the device(typically this is will be `/dev/sdX` where `X` is a character). The easiest and safest way to find do this is on Linux is to use the _Disks_ utility mentioned above.
+
+* _DVD Installation_ - A _DVD_ is a very traditional way of installing Fedora. You can create an installation DVD by writing an ISO image to a DVD. Most modern operating systems can do this operation with built-in software. If not, you can install a specialized application such as _Brasero_ on Linux and _ImgBurn_ on _MS Windows_. All versions of _OS{nbsp}X_ can write DVDs using _Finder_ and _Disk Utility_.
+
+=== Installing Fedora
+
+1. _Booting_ -- no matter what media you've chosen, you'll need to make sure that you set the right boot sequence in the BIOS of the computer you'd like to install Fedora on. The drive with the install media needs to be in the first position. You can get to the BIOS configuration by pressing a specific key after starting the computer. The key depends on the vendor (typically the keys are kbd:[Delete], kbd:[F1], or {nbsp}kbd:[F2]). Alternately, many vendors allow you to choose a boot drive without having to go to the BIOS settings by pressing the kbd:[F12] key.
++
 .Booted install media of Fedora
 image::img/instalator-a.png[width=500]
 
-If you decide to write the install image on a USB flash drive, you have to double-check that you've picked the correct drive. If you're doing the operation on _MS Windows_, you need to pick the character that has been assigned to the drive you'd like to use (most often `D:` or `E:`). On Linux, you need to do the same (a flash drive typically will be `/dev/sdX` where `X` is a certain character). The easiest and safest way to find it out is using the _Disks_ utility where you can find a lot of useful information about drives.
-
-=== Installation of Fedora
-
-1. _Booting_ -- no matter what media you've chosen, you'll need to make sure that you set the right boot sequence in BIOS of the computer you'd like to install Fedora on. The drive with the install media needs to be on the first place. You can get to the BIOS configuration by pressing a key after starting the computer. The key depends on the vendor (typically kbd:[Delete], kbd:[F1], or {nbsp}kbd:[F2]). Many vendors allow you to choose a boot drive without having to go to the BIOS settings by pressing the kbd:[F12] key.  
-
+2. _Initial Screen_ -- after successful booting you'll see the initial screen where you can choose between installing Fedora (or booting into the live system) and verifying the install media. If you choose installation, you'll boot into the live system and will be asked if you want to try the system out or install it on the hard drive. If you choose to "Try Fedora" you can use it in this wya for as long as you want and can choose to perform an installation at any time by clicking on the installer icon in the menu.
++
 .Fedora Installer
 image::img/instalator-b.png[width=500]
 
-2. _Initial Screen_ -- after successful booting you'll see the initial screen where you can choose between installing Fedora (and booting into the live system) and verifying the install media. If you choose the installation, you'll boot into the live system and will be asked if you want to try the system out or install it on the hard drive. If you choose the first option, you can try live Fedora for as long as you want and you can choose installation any time during that by clicking the installer icon in the menu.
+3. _Trying the System_ -- if you've chosen to try the system, you'll begin using the _GNOME Shell_. The top of the display contains the most commonly used control elements. There is an _Activities_ button in the upper left corner which will get you to applications (and to the option to install Fedora on your system). The upper right corner has controls that allow you to set up the network, restart or shutdown the system.
 
-3. _GNOME Shell_ -- if you've chosen to try the system, you now is the _GNOME Shell_ which is known for its top panel with most used control elements. There is a _Activities_ button in the upper left corner which will get you to applications (and to already mentioned option to install the system). The upper right corner is relevant if you want to set up the network, restart or shutdown the system.
+4. _Installer_ -- once you decide to install Fedora, you'll being using the helpful installation system, Anaconda. The insaller consists of different spokes that manage the options for areas such as language settings, time zone, etc. The disk partitioning spoke is the most important part of the intaller. This spoke will define where on your hard drive Fedora will be installed. The installer offers you automatic partitioning which will configure the hard drive in a way that is useful for most people. You can also choose manual partitioning and apply a customized setting. It's also possible to set up encryption for better security.
++
+Fedora also allows you to create a dualboot system. This is a PC that has two operating systems installed at the same time. It's easy to install Fedora next to an existing _MS Windows_ installation.
++
+In the partitioning dialog, you will see the existing partitions on the left. Before you confirm the changes make sure that everything is the way you meant it to be (for example that all partitions of other operating systems are still there, if you wish to keep them). When you confirm the changes and start the installation, the changes will be final.
 
-4. _Installer_ -- after you decide to install Fedora on the hard drive, you're given a helpful guide which consists of different spokes: language settings, time zone etc. until you reach disk partitioning. That's the most important part of the intaller in which you need to define where Fedora will be installed. The installer offers you automatic partitioning which will create the partitions itself. Of course, you can also choose manual partitioning and do it yourself exactly the way you want. It's also possible to set up encryption for better security.
+5. _End_ -- while the system is being installed, you need to provide several important pieces of information, such as the root or administrator password, and the information for creating a user account. You will use normally use the user account you created and only use the root password when you need to make a system-wide change. Fedora has the classic approach to user accounts where the root account is not disabled. So you'll need to set up and remember at least two passwords. Alternately, you can check _Admin_ option when creating your user account. This enables the account to act as an administrator in vast majority of operations and avoids your having to use the root password often.
 
-5. _Hard Drive_ -- Fedora also allows you to create so called dualboot which stands for two operating system on one computer. It's not a problem to install Fedora next to already existing _MS Windows_. In the partitioning dialog, you can see existing partitions on the left. Before you confirm the changes make sure that everything is the way you meant it to be (for example that all partitions of other operating systems are still there). When you confirm the changes and start the installation, there is no way back.
-
-6. _End_ -- while the system is being installed, you need to fill out several important things such as root (administrator) password, and user account, which you will use normally (you'll need to set a password for this account, too). Fedora has the classic approach to user accounts where the root account is not disabled. So you'll need to set up and remember at least two passwords. You don't like this solution? No problem, while creating your user account you can check _Admin_ option which enables the account to act as an admin in vast majority of operations.
-
-7. _And that's it_ -- the whole installation should not take more than several dozen minutes. After restart you'll just need to perform a couple of short post-install tasks such as changing the boot order to the original state and then you're ready to go. Everything worked well? Now you can begin exploring Fedora!
-
+And that's it. The whole installation should take less than than several dozen minutes. After restart you'll just need to perform a couple of short post-install tasks such as changing the boot order to the original state and then you're ready to go. Everything worked well? Now you can begin exploring Fedora!
