@@ -1,0 +1,20 @@
+_Getting Started with Fedora_
+
+_Czech Language Authors:_ + 
+Lukáš Kotek, et. al.
+
+_Czech Language Proofreading:_ + 
+Květa Mrštíková and Jiří Kroupa
+
+_English Language Proofreading and Authors:_ +
+Brian Exelbierd
+
+_Typography and Layout:_ + 
+Petr Čech
+
+_Cover Design:_ + 
+Maria Leonova
+
+_First Edition Released in September 2015._ + 
+_Released under CC BY-SA 3.0_
+

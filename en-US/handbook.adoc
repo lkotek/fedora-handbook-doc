@@ -21,4 +21,4 @@ include::06-chcete-vedet-vic.adoc[]
 
 <<<
 
-include::tiraz.adoc[]
+include::credits.adoc[]
