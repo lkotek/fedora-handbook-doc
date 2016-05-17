@@ -1,5 +1,5 @@
-= Začínáme s{nbsp}Fedorou
-seznámení s{nbsp}operačním systémem a první kroky v{nbsp}systému
+= Getting Started with Fedora
+An Introduction and First Steps Guide
 
 :doctype: book
 :listing-caption: Listing
@@ -7,17 +7,17 @@ seznámení s{nbsp}operačním systémem a první kroky v{nbsp}systému
 :icons: font
 :experimental:
 
-include::01-uvod.adoc[]
+include::01-introduction.adoc[]
 
-include::02-o-cem-je-fedora.adoc[]
+include::02-what-is-fedora-about.adoc[]
 
-include::03-jak-fedoru-ziskat.adoc[]
+include::03-how-to-get-fedora.adoc[]
 
-include::04-prvni-kroky-v-systemu.adoc[]
+include::04-first-steps-in-system.adoc[]
 
-include::05-jak-fedoru-prizpusobit.adoc[]
+include::05-how-to-tweak-fedora.adoc[]
 
-include::06-chcete-vedet-vic.adoc[]
+include::06-you-want-to-know-more.adoc[]
 
 <<<
 
