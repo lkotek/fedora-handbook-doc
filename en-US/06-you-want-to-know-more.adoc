@@ -8,7 +8,7 @@ This handbook exists to help you get started with Fedora. But, what can you do i
 === What to do if you encounter a bug
 It is possible that you will encounter a bug. What then? Fedora uses Bugzilla, a bug tracker, provided by Red Hat. It is available online at link:http://bugzilla.redhat.com[bugzilla.redhat.com]. Bugs are required to be reported in English.
 
-There is a also a tool in Fedora called ABRT. ABRT can be described by quotation from a classic movie - "everybody contributes accordingly to his possibilities".
+There is a also a tool in Fedora called ABRT. ABRT allows anyone to report bugs or errors by just agreeing to share the details with the Fedora Project. Even if you don't have time to contribute by fixing the bug, be sure to let us know about it by using ABRT.
 
 === Other Fedora Editions
 Unline many other generic Linux operating systems, Fedora consists of 3 main editions. This guide describes the Workstation edition. There are also _Server_ and _Cloud_ Editions. The _Server_ edition is designed for server uses and features applications like Cockpit which allows for easy remote management of servers through a web browser and the administration of server roles through _Rolekit_. The _Cloud_ edition is a minimal version of Fedora optimized for deploying containers. There are multiple Fedora Cloud images opitimized for use in environments like _OpenStack_, _VirtualBox_ and others.
