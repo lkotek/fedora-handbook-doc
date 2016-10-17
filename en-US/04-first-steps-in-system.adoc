@@ -34,24 +34,25 @@ The _Activities_ overview is for launching apps, switching between them, switchi
 .Activities overview
 image::img/shell-b.png[width=500]
 
-1. _Dash_ -- jedná se o{nbsp}panel (_menu_), na kterém naleznete spuštěné a oblíbené aplikace. Odlišíte je tak, že ty spuštěné jsou výrazně podtržené. Pokud chcete aplikaci zařadit mezi oblíbené, klikněte na ni v{nbsp}Dashi pravým tlačítkem myši a vyberte _Přidat mezi oblíbené_.
+1. _Dash_ -- Dash is panel (_menu_) where you can find running and favourite applications. Running applications are boldly underlined. If you want to add an application to favorite applications, click on it in Dash with right mouse button and select _Add to Favorites_
 +
-.Práce s aplikacemi v Dashi
+.Working with applications in Dash
 image::img/dash-b.png[width=300]
 +
-.Zobrazení všech aplikací
+.View of all applications
 image::img/dash-a.png[width=300]
 
-2. _Zobrazit aplikace_ -- opět již zmíněný prvek. Toto tlačítko zobrazí spouštěče aplikací. V{nbsp}dolní části obrazovky pak můžete přepínat mezi často používanými aplikacemi a všemi aplikacemi.
+2. _Show applications_ -- again already mentioned function. This button will show launchers for all applications. You can switch between frequently used applications and all application in the bottom of the screen.
 
-3. _Vyhledávání_ -- prostředí _GNOME_ nabízí také velmi mocné desktopové vyhledávání. Nemusíte do vyhledávacího pole klikat, po přepnutí do režimu _Činnosti_ můžete začít rovnou psát a vyhledávání se aktivuje. Jedná se o{nbsp}nejrychlejší způsob, jak spouštět aplikace. Kromě nich ale můžete vyhledávat také dokumenty, obrázky, virtuální stroje, aplikace k{nbsp}instalaci, kontakty, atd. Nebo také provádět jednoduché výpočty. Co se má v _Činnostech_ vyhledávat, můžete nastavit v{nbsp}systémových nastaveních pod položkou _Hledání_.
+3. Search -- _GNOME_ provides very powerful search funcionality. You don't have to click to search field, you can start typing immidiatelly after opening _Activities_ mode and search function will be activated automatically. It is probably the fastest way to launch applications. Apart from them, you can search documents, pictures, virtual machines, not yet installed applications, contacts and so on. Or even do simple calculations. You can set what can be searched through actvities in System Settings under _Search_ field.
+
 +
-.Integrované vyhledávání
-image::img/vyhledavani.png[width=400]
+.Integrated search
+image::img/search.png[width=400]
 
-4. _Virtuální plochy_ -- na levé straně můžeme najít náhledy virtuálních ploch, kterých lze mít více, aniž by bylo nutné mít více monitorů. Slouží k{nbsp}organizaci oken a aplikací. _GNOME_ nemá fixní počet ploch. Naopak, jejich počet je dynamický. Je jich vždycky tolik, na kolika z{nbsp}nich máte aktuálně umístěná okna, a jednu prázdnou navíc, která je připravená k{nbsp}použití. Když na ni přetáhnete okno, vytvoří se další prázdná a naopak. Přetahovat okna mezi plochami můžete přímo v{nbsp}náhledech, případně můžete přetáhnout náhled ze středu obrazovky do jednoho z{nbsp}náhledů. Přepínat mezi virtuálními plochami můžete také přímo v{nbsp}pracovním režimu pomocí klávesové zkratky kbd:[Ctrl]+kbd:[Alt]+kbd:[šipka ↑]/kbd:[šipka ↓].
+4. _Virtual desktops_ -- we can see virtual desktops on the right side. YOu can have more than one virtual desktop even if you have just one physical monitor. You can use them to organize application windows in a better way. Number of virtual desktops in _GNOME_ is not fixed but dynamic - always as many as you have aapplications on plus one ready to be used. When you drag a window to virtual desktop, GNOME automatically creates another empty virtual desktop. It even automatically deletes empty virtual desktops. You can circle between virtual desktops directly in work mode with keyboard shortcut kbd:[Ctrl]+kbd:[Alt]+kbd[arrow ↑]/kbd[arrow ↓].
 
-5. _Náhledy otevřených oken_ -- slouží k{nbsp}přehledu o{nbsp}tom, jaká okna máte otevřená, a také k{nbsp}přepínání mezi nimi. Přepnutí do vybraného okna provedete najetím myši na okno a kliknutím. Mezi okny můžete přepínat také klávesami. Stačí po přepnutí do _Činností_ stisknout klávesu kbd:[šipka ↓] a potom pomocí šipek navigovat mezi okny. Přepnutí do vybraného okna provedete klávesou kbd:[Enter].
+5. _Preview of open windows_ -- is used to get overview of all open windows and even for switching between them. Click on a window to switch to it. Or you can use keyboard to switch windows. Everything you have to do is to open _Activities_ and press kbd:[arrow ↓] and then use arrows to navigate between windows. Switching to window is done with kbd:[Enter] key.
 
 === Základní nastavení
 
